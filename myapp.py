@@ -17,6 +17,7 @@ def hello_world():
         "age": age,
         "username": slack_username,
         "legal":adult
+        
     })
 
 @app.route("/state")
