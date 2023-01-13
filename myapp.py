@@ -18,3 +18,12 @@ def hello_world():
         "username": slack_username,
         "legal":adult
     })
+
+@app.route("/state")
+def current_state():
+    state = "Oyo"
+    capital = "Ibadan"
+    return jsonify({
+        "state": state,
+        "capital": capital
+        })
